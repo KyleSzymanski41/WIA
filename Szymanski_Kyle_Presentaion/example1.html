@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<div class="container1">
+    <h1>Demo (changing background using buttons)</h1>
+    <p>A common notion is once backstretch is called and an image is in place can I change the image? That answer is yes. All you have to do is call the function again! </p>
+
+    <h2>Example #1 element background changes</h2>
+
+     <pre>&lt;script src=&quot;//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;jquery.backstretch.min.js&quot;&gt;&lt;/script&gt;
+&lt;script&gt;
+    $.backstretch(&quot;img/nike.jpg&quot;, {speed: 500});
+
+    $(&quot;#nike&quot;).click(function (e) {
+      e.preventDefault();
+      $.backstretch(&quot;img/nike.jpg&quot;);
+    });
+
+    $(&quot;#setting&quot;).click(function (e) {
+      e.preventDefault();
+      $.backstretch(&quot;img/setting.jpg&quot;);
+    });
+&lt;/script&gt;</pre>
+
+
+        <input type="button" id="nike" value="Show nike image" />
+        <input type="button" id="setting" value="Show setting image" />
+
+
+   
+</div>
+
+
+<script src=libs/jquery/jquery.js></script>
+<script src=libs/jquery.backstretch.min.js></script>
+<script>
+    $.backstretch("img/nike.jpg", {fade: 500});
+
+    $("#nike").click(function (e) {
+        e.preventDefault();
+        $.backstretch("img/nike.jpg");
+    });
+
+    $("#setting").click(function (e) {
+        e.preventDefault();
+        $.backstretch("img/setting.jpg");
+    });
+</script>
+</body>
+</html>
