@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Liberation Vapors</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/lightbox.css" rel="stylesheet" />
+    <link href="libs/jquery-ui-1.11.4.custom/jquery-ui.theme.css" rel="stylesheet" />
+    <link href="libs/jquery-ui-1.11.4.custom/jquery-ui.min.css" rel="stylesheet" />
+    <script src="libs/modernizr.custom.js"></script>
+</head>
+<body>
+
+
+<!-- creating modal -->
+<div id="modal">
+    <div class="modalconent">
+         <h1>Verify your age.</h1>
+        <p>Are you 18 or older?</p>
+        <button id="button">yes</button>
+        <button><a href="https://www.google.com/" style="text-decoration:none">no</a></button>
+    </div>
+</div><!-- ending modal -->
+
+
+
+
+<!-- creating header -->
+<header id="pageHeader" role="banner">
+
+        <h1><a href="index.html">Liberation Vapors</a></h1>
+        <h2>Vape Freely</h2>
+ 
+   <div> <!-- creating twitter -->
+       <a href="https://twitter.com/VapeFreely2015" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @VapeFreely2015</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+    </div><!-- ending twitter -->
+
+
+
+    <!-- ending header -->
+</header>
+
+<!-- creating nav -->
+<nav id="mainNav" role="navigation">
+    <ul>
+        <li><a href="#">News</a> </li>
+        <li><a href="gallery.html">Products</a></li>
+        <li><a href="#">Lessons</a></li>
+        <li><a href="#">DIY</a></li>
+        <li><a href="contact.html">About/Contact</a></li>
+        <li><a href="contact.html">FAQ</a></li>
+    </ul>
+</nav><!-- ending nav -->
+
+<!-- creating section -->
+<section id="content" role="main">
+    <div class="mission">
+        <p><strong>Vape Freely</strong> is our motto and we’re betting you want share that belief. Welcome to our site, here you will find all the necessary information about our cause and what products we have to offer to you. It has been a goal since day one to provide our customers with a family style environment and the highest quality customer service possible. We would like you to come and visit our store and join our family! We promise to provide you with expert vaping knowledge and quality products for a low price! Thank you for visiting us and remember Vape Freely!" <br><br>  <strong>Welcome</strong>.</p>
+    </div>
+</section><!-- ending section -->
+
+<!-- creating welcome video with toggle button using jquery -->
+    <div class="welcomeMessage">
+        <h1>A video welcome from the President of Liberation Vapors</h1>
+        <button id="toggle">Toggle video</button>
+    </div>
+        
+    <div id="welcome" align="center">
+            
+             <video width="640" height="480" controls>
+                    
+                    <source src="video/welcome.mp4" type="video/mp4"/>
+                    <source src="video/welcome.webm" type="video/webm" />
+                    <source src="video/welcome.ogv" type="video/ogg"/>
+                
+                </video>
+        
+        
+        </div><!-- ending video -->
+
+<!-- creating column-->
+    <div id="col">
+        <h2>Juices</h2>
+            <a href="gallery.html">  <img src="img/bottle_small.png" id="btl" alt="juice" width="100%" height="300"> </a>
+                <p>Here at <strong>Liberation Vapors</strong> we offer an extensive line of juice. We have major brand such as ANML, Carnage, MilkMan, Charlie Noble and many more! We also have our own signature house made juices that are made from the finest ingredients. We take pride in what we do, and we would love you to take pride in what you vape. Click on the image to be brought to our products page!</p>
+    </div><!-- ending column -->
+
+<!-- creating col2 -->
+    <div id="col2">
+        <!-- creating column inside of col2-->
+        <div id="col2inner">
+            <h2>Atomizers</h2>
+            <a href="gallery.html"> <img src="img/atty1_small.png" alt="Atty1" width="100%" height="300"> </a>
+            <p>Here at <strong>Liberation Vapors</strong> we offer an extensive line of Atomizers and accessories. We care major brands like Freakshow, Lemo, and many more of your favorites! Please check them out over in our product section and be sure to come see them for yourself in our store! If you do not find something you love, We can order it for you!</p>
+            </div>
+        
+        <div id="col2outer">
+            <h2>Mods</h2>
+              <a href="gallery.html"><img src="img/mod1_small.png" alt="itaste" width="100%" height="300"></a>
+            <p>Here at <strong>Liberation Vapors</strong> we offer an extensive line of Mechanical and Analog Mods. We care major brands like Eleaf, Vaporshark, iTaste, Sigelei and many more of your favorites! Please check them out over in our product section and be sure to come see them for yourself in our store! If you do not find something you love, We can order it for you!</p>
+        </div>
+    
+    </div><!-- ending col2-->
+
+
+
+<!-- creating footer -->
+    <div class="footer" id="footer"><p>&copy; 2015 Liberation Vapors <br> 24 E 8th Ave, Gloversville N.Y. <br> 12078 </p></div><!-- ending footer -->
+
+<!-- creating js library-->
+    <script src=libs/jquery/jquery-1.11.3.min.js></script>
+    <script src="libs/window.js"></script>
+    <script src=libs/jquery.backstretch.min.js></script>
+    <script src="libs/main.js"></script>
+    <script>
+        $.backstretch(["img/vapesmoke.jpg"]);
+        $(".mission").backstretch("img/lady.jpg");
+        $("#pageHeader").backstretch("img/flag.jpg");
+    </script>
+<!-- ending js library -->
+</body>
+</html>

@@ -1,0 +1,518 @@
+/* Kyle Szymanski
+    Fullsail University
+    June 2015
+    WIA
+    */
+
+
+
+
+/* Creating styles*/
+
+
+html{
+    background: #fff;
+}
+
+body {
+    font: 100% Cantarell, Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    background: #fff;
+    color: rgb(76, 67, 65);
+    font-weight:normal;
+    font-style:normal;
+}
+
+/* Creating styles*/
+header {
+    background:#000;
+    width: 100%;
+    padding-top: 1px;
+    overflow: hidden;
+
+}
+header h1 {
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 2px 2px #000;
+}
+
+header a {
+    text-decoration: none;
+    border: none;
+    color: white;
+    text-shadow: 2px 2px #000;
+}
+header a:hover {
+    border: none;
+    color: white;
+}
+
+
+/*nav styles*/
+#mainNav {
+    overflow: hidden;
+    
+    background-color: rgb(102,102,102);
+}
+
+#mainNav li {
+    float: left;
+}
+
+#mainNav a {
+    text-transform: uppercase;
+    display: block;
+    color: #fff;
+    border: none;
+}
+
+#mainNav a:hover {
+    color: deepskyblue;
+}
+
+#mainNav a.current {
+    color: #000;
+    cursor: default;
+}
+
+/* mission styles*/
+.mission h1 {
+    text-transform: uppercase;
+    color: #fff;
+}
+/*column styles*/
+
+.col {
+    border-bottom: 2px solid rgb(76, 67, 65);
+    margin-bottom: 2em;
+
+}
+
+.col h1 {
+    font: 1.8em Cardo, Georgia, serif;
+    border-bottom: 2px solid rgb(76, 67, 65);
+    margin-bottom: 1.5em;
+}
+
+.col h2 a {
+    color: rgb(76, 67, 65);
+    border: none;
+}
+
+.col h2 a:hover {
+    color: rgb(123, 121, 143);
+    border: none;
+}
+
+
+.col2 h2 {
+    font-family: Cardo, Georgia, serif;
+}
+
+.col2 ul {
+    list-style-type: none;
+}
+
+
+.intro p {
+    font-size: 1em;
+    margin: 0 0 1em;
+}
+
+
+#content{
+    background-color: #ffffff;
+}
+
+/* Creating welcome styles*/
+
+#welcome{
+    width: 100%;
+   padding-top: 3%;
+    padding-bottom:3%;
+    
+}
+
+.welcomeMessage{
+    text-align: center;
+    padding-bottom: 2%;
+    
+}
+
+/* Creating gallery styles*/
+#gallery{
+    width: 70%;
+    margin-left:4%;
+    float: left;
+}
+
+.galleryTitle{
+    text-align: center;
+    margin-top: 3%;
+    font-size: 2em;
+    
+
+}
+
+/* Creating aside styles*/
+
+aside {
+    float: right;
+    width: 22%;
+    margin-right: 4%;
+    margin-top: 12%;
+    
+}
+
+/* Creating accordion styles*/
+#accordion-resizer {
+    padding: 10px;
+    width: 400px;
+    height: 200px;
+  }
+
+#accordian{
+    color: black;
+    margin-top: 2%;
+
+}
+
+
+
+/*footer*/
+#footer
+{
+    clear: both;
+    border: 1px groove #aaaaaa;
+    background: rgb(102,102,102);
+    color: White;
+    text-align: center;
+    vertical-align: middle;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    width: 100%;
+}
+
+
+
+
+
+/*desktop styling*/
+
+    body {
+        width: 90%;
+        margin: 0 auto;
+        min-width: 1024px;
+        max-width: 1280px;
+        background-color:#fff;
+    }
+
+    /*header styles*/
+    header {
+        height: 165px;
+    }
+
+    header h1 {
+        font-size: 2.1em;
+        padding-top: 50px;
+        padding-left: 100px;
+        line-height: 50px;
+        margin-right: .5em;
+        float: left;
+        margin-left: 3.9%;
+        display: inline;
+        color: #fff;
+     
+
+    }
+
+    header h2 {
+        font-family: Cantarell, Arial, Helvetica, sans-serif;
+        font-style: italic;
+        font-weight: normal;
+        font-size: .9em;
+        color: #ffffff;
+        float: left;
+        text-transform: lowercase;
+        letter-spacing: .2em;
+        line-height: 210px;
+        text-shadow: 1px 1px #000;
+    }
+
+/* Creating nav styles*/
+    #mainNav{
+        padding-left: 3.9%;
+        padding-bottom: 2%;
+
+    }
+
+    #mainNav ul{
+        list-style-type: none;
+    }
+
+    #mainNav li {
+        margin-right: 5em;
+    }
+
+    #mainNav a{
+        font-size: 1.1em;
+        text-align: center;
+        padding-left: 15px;
+    }
+
+    #mainNav a em{
+        color: #c5c5c5;
+    }
+
+    #mainNav em{
+        font-size: .8em;
+        display: block;
+        text-transform: lowercase;
+    }
+
+    /* mission styles*/
+    .mission {
+        height: 380px;
+        padding-left: 3.9%;
+        overflow: hidden;
+        margin-bottom: 4em;
+        position: relative;
+    }
+
+    .mission h1 {
+        font-size: 2.2em;
+        color: #fff;
+        padding-top: 10px;
+        letter-spacing: .1em;
+
+    }
+
+    .mission p{
+        width: 21%;
+        padding: 1% 1% 0;
+        height: 380px;
+        font-size: .9em;
+        color: #fff;
+        background: rgba(102,102,102,.8);
+        position: absolute;
+        top: 0;
+        right: 0;
+
+    }
+
+    /* column styles */
+    #col {
+        float: left;
+        width: 20%;
+        padding-left:6%;
+
+    }
+
+   #col h2{
+        font-size: 1.2em;
+        text-align: center;
+        margin-bottom: 1em;
+        
+    }
+
+    #col p{
+        font-size: 1.3em;
+        margin: .8em 0;
+    }
+
+
+
+    #col2 {
+        float: right;
+        width: 58%;
+        padding-right: 4%;
+    }
+
+      #col2 h2 {
+        font-size: 1.2em;
+        text-align: center;
+        margin-bottom: 1em;
+        clear: both;
+    }
+
+
+    #col2 p{
+        font-size: 1.3em;
+        margin: .8em 0;
+    }
+
+    #col2inner{
+        float: left;
+        width: 25%;
+        padding-left: 6%;
+    }
+
+  
+    #col2outer{
+     float: right;
+     width: 25%;
+     padding-right: 6%
+  }
+
+    #colKL {
+        float: left;
+        width: 45%;
+        padding-left: 3%;
+    }
+
+    #colKS {
+        float: right;
+        width: 45%;
+        padding-right: 3%;
+    }
+
+    #colful{
+        width: 100%;
+        clear: both;
+       padding-bottom: 5%;
+        padding-top: 6%
+    
+    
+    }
+         
+
+ .intro {
+        margin-top: 10%;
+        margin-bottom: 1em;
+        text-align: center;
+        }
+
+    .intro1{
+        margin-top: 2%;
+        margin-bottom: 4%;
+        text-align: center;
+    }
+
+
+/* Creating modal styles */
+    #modal {
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 99999;
+    height: 100%;
+    width: 100%;
+}
+.modalconent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgb(102,102,102);
+    width: 50%;
+    padding: 20px;
+    color: #fff;
+}
+
+/* video styles*/
+  div#theDiv {
+      margin-left: 8%;  
+      margin-bottom: 10%;
+      display: none;
+        }
+
+.grey {color: #aaa;}
+
+/*  City Info   */
+.city_detail_container { display: none; }
+.city_detail_container .city_detail { width: 300px; border: 1px solid #ccc; }
+
+
+/*  Interactive Map Container */
+.map_container {
+	background-image: url(../img/template/map.jpg);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	height: 325px;
+	width: 760px;
+	position: relative;
+	color: #fff;
+	font-family: Arial sans-serif;
+	font-size: 12px;
+	float: right;
+	margin: 0 0 0 20px;
+}
+
+.map_container .clear_both { clear: both; line-height: 1px; }
+
+.map_container .city_info h2 {
+	margin: 0 0 0 0;
+	font-size: 18px;
+	font-weight: bold;
+}
+.map_container .city_info h3 {
+	margin: 0 0 12px 0;
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	color: #2c3748;
+}
+.map_container p { margin: 0 0 12px 0; }
+
+.map_container a, a:visited { color: #AA0000; margin: 0 10px 0 0; }
+.map_container a.dot {
+	background-image: url(../img/template/dots.png);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	height: 20px;
+	width: 20px;
+	display: block;
+	position: absolute;
+	cursor: pointer;
+}
+.map_container a.dot.selected {
+	background-position: 0 -40px;
+}
+.map_container a.dot:hover {
+	background-position: 0 -20px;
+}
+.map_container .form_continent {
+	position: absolute;
+	top: 265px;
+	left: 30px;
+}
+.map_container .detail_container {
+	position: absolute;
+	top: 35px;
+	left: 480px;
+	width: 240px;
+	height: 260px;
+}
+.map_container .city_detail {
+	position: absolute;
+	top: 0;
+	width: 230px;
+	padding: 10px 0 0 12px;
+	border-left: 1px solid #a9b5c8;
+	border-top: 1px solid #a9b5c8;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+}
+
+
+.map_container .city_detail .city_info {
+	width: 130px;
+	float: left;
+}
+
+/* Creating tab styles*/
+#tabs-1 ul li{
+    
+    list-style-type: none;
+}
+
+/* Creating twitter styles*/
+
+.twitter-follow-button {
+    float: right;}
+       
